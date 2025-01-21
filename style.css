@@ -154,3 +154,11 @@ select {
   box-shadow: 1px 1px 2px .1px rgb(30, 51, 54);
   width: 200px;
 }
+
+
+.footer {
+  height: 40px;
+  width: 95%;
+  margin: auto;
+  background-color: #fff;
+}
