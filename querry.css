@@ -1,0 +1,23 @@
+
+/* @media only screen and (max-width: 600px) {
+
+  body {
+    background-image: url(images/pexels-arina-krasnikova-7726105.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-blend-mode:color-dodge;
+  }
+
+  .overall-container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: rgba(125, 131, 136, 0.712);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 30px;
+  }
+} */

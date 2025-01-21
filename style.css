@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* text-align: center; */
+}
+
+:root {
+  --text-color: #fff;
+
+}
+
+body {
+  background-image: url(images/pexels-arina-krasnikova-7726105.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  background-blend-mode:color-dodge;
+}
+
+.overall-container {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  background-color: rgba(125, 131, 136, 0.712);
+  border-radius: 9px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  padding: 30px;
+}
+
+.left-container {
+  margin: auto;
+  /* background-color: antiquewhite; */
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2.5px 2px 1.2px black;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 42px;
+  flex-wrap: wrap;
+  display: grid;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.form-container {
+  width: 300px;
+  height: 400px;
+  background-color: rgba(199, 247, 232, 0.443);
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 1px 1px 6px 1.2px rgb(48, 94, 76);
+  /* margin-bottom: 20px; */
+  border-right-color: rgb(84, 142, 142);
+  padding: 20px;
+  text-align: center;
+}
+
+.form-container h2, p {
+  color: var(--text-color);
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.description {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.icon-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 10px;
+  display: none;
+
+}
+
+.icon-container img {
+  width: 30px;
+  height: 30px;
+  border-radius: 200px;
+  box-shadow: 1px 1px 2px .4px;
+}
+
+#iconline {
+  background-color: #ffffff58;
+  margin-top: 2px;
+  width: 80;
+  height: 50px;
+  align-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 200px;
+  box-shadow: 1px 1px 2px .4px;
+}
+
+#iconline img {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 200px;
+  box-shadow: 1px 1px 2px .4px;
+}
+
+input {
+  all: unset;
+  background-color: rgba(226, 240, 235, 0.573);
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: left;
+  padding: 4px 10px;
+  font-family: inherit;
+  box-shadow: 1px 1px 7px -3px;
+}
+
+select {
+  width: 230px;
+  color: #fff;
+  height: 22px;
+  background-color: rgba(133, 180, 165, 0.676);
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#submitBtn {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  font-size: 16px;
+  margin: 10px 0;
+  background-color:aquamarine;
+  outline: unset;
+  border: unset;
+  padding: 3px 5px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px .1px rgb(30, 51, 54);
+  width: 200px;
+}
