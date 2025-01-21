@@ -187,3 +187,12 @@ select {
 .fa-brands {
   color: rgb(2, 47, 15);
 }
+
+.copyright {
+  width: 90%;
+  height: 30px;
+  /* background-color: #fff; */
+  margin: auto;
+  margin-top: 10px;
+  display: none;
+ }
