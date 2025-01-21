@@ -32,7 +32,7 @@
     box-shadow: 1px 1px 6px 1.2px rgb(48, 94, 76);
     /* margin-bottom: 20px; */
     border-right-color: rgb(84, 142, 142);
-    padding: 20px;
+    padding: 14px;
     text-align: center;
   }
 
@@ -42,7 +42,7 @@
     border-radius: 12px;
     box-shadow: 1px 0 3px;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 12px auto;
     justify-content: space-between;
     gap: 10px;
     background-color: rgba(240, 248, 255, 0.627);
@@ -86,7 +86,7 @@
     display: grid;
     align-items: center;
     border-bottom: 3px solid chartreuse;
-    margin-top: -40px;
+    margin-top: -30px;
     /* background-color: aqua; */
   }
 
@@ -99,7 +99,7 @@
 
   .description {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     font-size: 22px;
   }
 
@@ -125,7 +125,7 @@
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     display: flex;
     font-size: 16px;
    }
