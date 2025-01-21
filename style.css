@@ -56,7 +56,7 @@ body {
 
 .form-container {
   width: 300px;
-  height: 400px;
+  height: 430px;
   background-color: rgba(99, 165, 144, 0.443);
   margin: auto;
   border-radius: 12px;
@@ -70,6 +70,7 @@ body {
 .form-container h2, p {
   color: var(--text-color);
 }
+
 
 .heading {
   margin-bottom: 10px;
@@ -123,8 +124,9 @@ body {
   box-shadow: 1px 1px 2px .4px;
 }
 
-input {
+input, textarea{
   all: unset;
+  width: 90%;
   background-color: rgba(226, 240, 235, 0.573);
   margin-top: 20px;
   border-radius: 6px;
@@ -135,7 +137,7 @@ input {
 }
 
 select {
-  width: 230px;
+  width: 94.5%;
   color: #fff;
   height: 30px;
   background-color: rgba(133, 180, 165, 0.676);
@@ -148,7 +150,7 @@ select {
   font-weight: 800;
   font-size: 16px;
   margin: 10px 0;
-  background-color:aquamarine;
+  /* background-color:aquamarine; */
   outline: unset;
   border: unset;
   padding: 3px 5px;
@@ -156,6 +158,21 @@ select {
   box-shadow: 1px 1px 2px .1px rgb(30, 51, 54);
   width: 200px;
   margin-top: 20px;
+}
+
+#submitBtn:hover {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  font-size: 16.5px;
+  margin: 10px 0;
+  background-color:rgb(74, 121, 106);
+  outline: unset;
+  border: unset;
+  padding: 3px 5px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px .4px rgb(30, 51, 54);
+  width: 205px;
+  margin-top: 19.6px;
 }
 
 .describeFooter {
@@ -175,6 +192,7 @@ select {
 .footer a i {
   height: 30px;
   width: 30px;
+  margin-top: 10px;
   padding: 20px 5px 0px;
   /* background-color: #fff; */
 }
@@ -188,11 +206,21 @@ select {
   color: rgb(2, 47, 15);
 }
 
-.copyright {
+.fa-brands:hover {
+  color: rgb(8, 111, 92);
+}
+
+ .copyright {
   width: 90%;
   height: 30px;
-  /* background-color: #fff; */
   margin: auto;
   margin-top: 10px;
   display: none;
+ }
+
+ .desktop {
+  display: flex;
+  font-size: 15px;
+  color: #fff;
+  justify-content: center;
  }

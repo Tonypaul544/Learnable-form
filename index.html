@@ -25,7 +25,7 @@
   
     <div class="form-container">
       <h2 class="heading">Adopt A Pet</h2>
-      <p class="description">Find your favorite pet below to adopt</p>
+      <!-- <p class="description">Find your favorite pet below to adopt</p> -->
 
       <div class="icon-container">
         <img src="images/dog face.webp" alt="Dog image">
@@ -39,8 +39,9 @@
 
       <form action="submit" method="get">
         <input type="text" placeholder="Name" required>
-        <input type="text" placeholder="Email" required>
-        <select name="Pet-list" id="petList">
+        <input type="email" placeholder="Email" required>
+        <textarea name="text" id="textarea" placeholder="Why do you want to adopt a pet?" required></textarea>
+        <select name="Pet-list" id="petList" required>
           <option value="Dog">Select A Pet</option>
           <option value="Dog">Dog</option>
           <option value="Cat">Cat</option>
@@ -49,30 +50,31 @@
         </select><br>
         <button type="submit" id="submitBtn">Adupt</button>
 
-  <!--  <div class="describeFooter">
+        <!-- <div class="describeFooter">
           <p class="describe">You can checkout our social handles to get more pets of your choice</p>
         </div> -->
 
         <div class="footer">
-          <a href="https://x.com/COURAGE_XBT?t=0bRhcWfysrBGyRuwdVQPUg&s=09">
+          <a href="#">
             <i class="fa-brands fa-square-x-twitter fa-xl"></i>
           </a>
 
-          <a href="https://medium.com/@paulnwodotochukwu180">
+          <a href="#">
             <i class="fa-brands fa-medium fa-xl"></i>
           </a>
 
-          <a href="https://youtube.com/@web3-courage?si=aHaGsTb1VyMPVDrZ">
+          <a href="#">
             <i class="fa-brands fa-square-youtube fa-xl"></i>
           </a>
         </div>
+        <p class="copyright desktop">
+          &copy; 2025 Paul Nwodo.
+        </p>
       </form>
     </div>
-
     <p class="copyright">
-      &copy; 2025 Paul Nwodo.
+      &copy; 2025 Paul Nwodo. All rights reserved.
     </p>
-    
   </div>
 </body>
 </html>
