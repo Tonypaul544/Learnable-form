@@ -18,6 +18,7 @@ body {
   background-size: cover;
   background-position: left;
   background-blend-mode:color-dodge;
+  background-attachment: fixed;
 }
 
 .overall-container {
@@ -56,7 +57,7 @@ body {
 .form-container {
   width: 300px;
   height: 400px;
-  background-color: rgba(199, 247, 232, 0.443);
+  background-color: rgba(99, 165, 144, 0.443);
   margin: auto;
   border-radius: 12px;
   box-shadow: 1px 1px 6px 1.2px rgb(48, 94, 76);
@@ -80,6 +81,7 @@ body {
 .description {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .icon-container {
@@ -153,12 +155,35 @@ select {
   border-radius: 6px;
   box-shadow: 1px 1px 2px .1px rgb(30, 51, 54);
   width: 200px;
+  margin-top: 20px;
 }
 
+.describeFooter {
+  margin-top: 10px;
+}
 
 .footer {
-  height: 40px;
+  height: fit-content;
   width: 95%;
   margin: auto;
-  background-color: #fff;
+  display: flex;flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  /* background-color: #fff; */
+}
+
+.footer a i {
+  height: 30px;
+  width: 30px;
+  padding: 20px 5px 0px;
+  /* background-color: #fff; */
+}
+
+#submitBtn {
+  background-color: rgb(35, 77, 47);
+  color: #fff;
+}
+
+.fa-brands {
+  color: rgb(35, 77, 47);
 }
