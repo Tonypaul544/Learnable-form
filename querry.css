@@ -69,7 +69,7 @@
     width: 170px;
     height: 170px;
     margin: auto;
-    margin-bottom: 200px;
+    margin-top: -200px;
     border-radius: 12px;
     box-shadow: 1px 1px 2px .4px;
   }
