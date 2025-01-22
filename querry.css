@@ -63,7 +63,7 @@
   }
 
   .icon-container img:hover {
-    transition: ease-in-out .03s;
+    transition: ease-in-out .1s;
     position: absolute;
     z-index: 1;
     width: 170px;
