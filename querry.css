@@ -55,24 +55,28 @@
     margin-top: -20px;
   }
   
-  .icon-container img {
+  .img {
+    position: relative;
     width: 30px;
     height: 30px;
     border-radius: 200px;
     box-shadow: 1px 1px 2px .4px;
+    box-sizing: border-box;
   }
 
-  .icon-container img:hover {
-    /* transition: ease-in-out 1s; */
+  /* .icon-container img.img1:hover, .img2:hover, .img3:hover,  .img4:hover{
+    transition: ease-in-out .3s;
     position: absolute;
     z-index: 1;
-    width: 180px;
-    height: 180px;
+    width: 62%;
+    height: 170px;
     margin: auto;
     border-radius: 12px;
     box-shadow: 1px 1px 2px .4px;
-    margin-top: -180px;
-  }
+    margin-top: -190px;
+  } */
+
+  
   
   #iconline {
     background-color: #ffffff58;

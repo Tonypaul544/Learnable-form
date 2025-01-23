@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head id="body">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pet Adoption</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="querry.css">
   <link rel="shortcut icon" href="images/pexels-andreea-diana-sintean-16362019-6506036.jpg" type="image/x-icon">
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<body>
+<body id="bodyBg">
   <div class="overall-container">
     <div class="left-container">
       <h1 class="title">PET ADOPTION</h1>
       <div id="iconline">
-        <img src="images/dog face.webp" alt="Dog image">
+        <img src="images/dog face.webp" alt="Dog image" class="Dog">
 
-        <img src="images/cat face 2.jpeg" alt="Cat image">
+        <img src="images/cat face 2.jpeg" alt="Cat image" class="cat">
 
-        <img src="images/Rabit face.jpeg" alt="Rabit image">
+        <img src="images/Rabit face.jpeg" alt="Rabit image" class="Rabit">
 
-        <img src="images/monkey.jpeg" alt="Monkey image">
+        <img src="images/monkey.jpeg" alt="Monkey image" class="monkey">
       </div>
       <p class="description desktop"><small> Touch the above pets to have a look</small></p>
 
@@ -31,19 +31,19 @@
       <p class="description mobile"><small> Touch the below pets to have a look</small></p>
 
       <div class="icon-container">
-        <img src="images/dog face.webp" alt="Dog image">
+        <img src="images/dog face.webp" alt="Dog image" class="img1 Dog">
 
-        <img src="images/cat face 2.jpeg" alt="Cat image">
+        <img src="images/cat face 2.jpeg" alt="Cat image" class="img2 Cat">
 
-        <img src="images/Rabit face.jpeg" alt="Rabit image">
+        <img src="images/Rabit face.jpeg" alt="Rabit image" class="img3 Rabit">
 
-        <img src="images/monkey.jpeg" alt="Monkey image">
+        <img src="images/monkey.jpeg" alt="Monkey image" class="img4 Monkey">
       </div>
 
       <form action="submit" method="get">
-        <input type="text" placeholder="Name" required>
-        <input type="email" placeholder="Email" required>
-        <textarea name="text" id="textarea" placeholder="Why do you want to adopt a pet?" required></textarea>
+        <input type="text" placeholder="Name" required id="nameInput">
+        <input type="email" placeholder="Email" required id="emailInput">
+        <textarea name="text" id="textarea" placeholder="Why do you want to adopt a pet?" required id="commentInput"></textarea>
         <select name="Pet-list" id="petList" required>
           <option value="Dog">Select A Pet</option>
           <option value="Dog">Dog</option>
@@ -79,5 +79,6 @@
       &copy; 2025 Paul Nwodo.
     </p>
   </div>
+  <script src="scrypt.js"></script>
 </body>
 </html>
