@@ -1,10 +1,10 @@
 
 
 const bodyBg = document.getElementById("bodyBg");
-let dog = document.querySelector(".Dog");
-let cat = document.querySelector(".cat");
-let Rabit = document.querySelector(".Rabit");
-let monkey = document.querySelector(".monkey");
+let dog = document.querySelectorAll(".Dog");
+let cat = document.querySelectorAll(".cat");
+let Rabit = document.querySelectorAll(".Rabit");
+let monkey = document.querySelectorAll(".monkey");
 
 
 dog.addEventListener("click", dogBg);
