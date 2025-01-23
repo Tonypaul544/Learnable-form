@@ -32,7 +32,7 @@ let email = document.getElementById("emailInput");
 let comment = document.getElementById("commentInput");
 // let name = document.getElementById("nameInput");
 
-let submitBtn = document.querySelector(".submitBtn");
+// let submitBtn = document.querySelector(".submitBtn");
 
 // submitBtn.addEventListener("click", submitwarning);
 // function submitwarning() {
