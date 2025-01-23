@@ -146,7 +146,7 @@ input, textarea{
   text-align: left;
   padding: 4px 10px;
   font-family: inherit;
-  box-shadow: 1px 1px 7px -3px;
+  box-shadow: inset -2px 1px 9px .4px, inset -9px 5px 8px #eef0f0;
 }
 
 select {
