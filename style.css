@@ -60,9 +60,14 @@ body {
   background-color: rgba(99, 165, 144, 0.443);
   margin: auto;
   border-radius: 12px;
-  box-shadow: 1px 1px 6px 1.2px rgb(48, 94, 76);
+  box-shadow: inset 1px .2px 12px rgba(36, 149, 23, 0.763);
+  /* box-shadow: 1px 1px 6px 1.2px rgb(48, 94, 76); */
+  border-right: solid 2.5px rgba(128, 255, 0, 0.205);
+  border-left: solid 2.5px rgba(123, 210, 30, 0.268);
+  border-top: solid 2.5px rgba(7, 255, 77, 0.236);
+  border-bottom: solid 2.5px rgba(200, 255, 1, 0.262);
   /* margin-bottom: 20px; */
-  border-right-color: rgb(84, 142, 142);
+  /* border-right-color: rgb(84, 142, 142); */
   padding: 20px;
   text-align: center;
 }
